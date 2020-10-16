@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+.credit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+ 
+
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    border-radius: 15px;
+
+    color: white;
+
+    background-image: linear-gradient(25deg, #0f509e, #1399cd);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.credit-card__number {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+.credit-card__info {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+.credit-card__info_label {
+    font-size: 14px;
+}
+
+.credit-card__info_expiry {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.credit-card__back {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+ 
+
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    border-radius: 15px;
+
+    color: white;
+
+    background-image: linear-gradient(25deg, #0f509e, #1399cd);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.credit-card-back__container{
+
+    width: 350px;
+    height: 40px;
+    margin-left: -25px; 
+    background-color: black;
+
+
+}
+.credit-card-back__input__container{
+    width: 250px;
+    height: 40px;
+    margin-left: 0px;
+    padding-top: -100px;
+    text-align: center;
+  vertical-align: middle;
+padding-top: 20px;
+margin-top: 40px;
+ 
+    background-color: #bebebe;
+
+}
